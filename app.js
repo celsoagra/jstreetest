@@ -12,8 +12,12 @@ $(function () {
        "check_callback" : true,        
         "data": data
       },
-      
-      "plugins" : [ "sort", "state", "wholerow"]
+      "types" : {
+        "default" : {
+          "icon" : "fas fa-archway"
+        }
+      },
+      "plugins" : [ "sort", "types", "state"]
   });
 
 });
